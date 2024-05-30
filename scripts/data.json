@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "8GB RAM",
+        "price": 40000,
+        "image": "assets/images/8rampny.jpg"
+    },
+    {
+        "id": 2,
+        "name": "A320 AM4",
+        "price": 105000,
+        "image": "assets/images/a320.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Ryzen 3200G",
+        "price": 109000,
+        "image": "assets/images/ryzen3200g.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Gabinete PC",
+        "price": 50000,
+        "image": "assets/images/gabinete.png"
+    },
+    {
+        "id": 5,
+        "name": "NVMW 250GB",
+        "price": 80000,
+        "image": "assets/images/discossd.png"
+    },
+    {
+        "id": 6,
+        "name": "Gigabyte RTX 3050",
+        "price": 350000,
+        "image": "assets/images/rtx3050.png"
+    }
+]
