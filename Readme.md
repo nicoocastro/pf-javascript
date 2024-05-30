@@ -1,25 +1,29 @@
-# Simulador de Compras Online
+# Simulador de Compra Online
 
-Este proyecto es un simulador interactivo de compras online. Permite a los usuarios agregar productos a un carrito de compras, confirmar compra y finalizar la misma. 
-Además de ver el total de dinero acumulado entre los productos añadidos previamente al carrito.
+Este proyecto es un simulador de compra online desarrollado con JavaScript, HTML, CSS y JSON. Permite a los usuarios visualizar una lista de productos, agregar productos al carrito, confirmar la compra, finalizar la compra y ver compras realizadas previamente.
 
-## Estructura del Proyecto
+## Características
 
-- **index.html**: Documento HTML principal.
-- **styles/style.css**: Estilos básicos de CSS para la aplicación.
-- **scripts/app.js**: Lógica JavaScript de la aplicación.
-- **scripts/data.json**: Datos simulados de productos.
-- **assets/images**: Carpeta para imágenes y otros recursos multimedia.
+- Interfaz de usuario interactiva y amigable.
+- Integración con una base de datos simulada en formato JSON.
+- Uso de la librería Axios para realizar peticiones HTTP.
+- Utilización de Bootstrap para el diseño y la estilización de la interfaz.
 
 ## Funcionalidades
 
-- Visualización dinámica de productos desde un archivo JSON.
-- Agregar productos al carrito.
-- Calcular y mostrar el total del carrito.
-- Confirmar la compra con un mensaje de éxito.
-- Finalizar la compra y limpiar el carrito.
-- Guardar las compras realizadas en el almacenamiento local del navegador (localStorage).
+- Visualización dinámica de la lista de productos desde el archivo JSON.
+- Adición de productos al carrito con la opción de ajustar la cantidad.
+- Confirmación de la compra, mostrando un mensaje de confirmación.
+- Finalización de la compra, vaciando el carrito y reiniciando la selección.
+- Visualización de las compras realizadas previamente en un modal.
 
-## Librerías Externas
+## Instalación
 
-- en proceso.
+1. Clonar este repositorio en tu máquina local utilizando Git:
+git clone https://github.com/tu_nombre_de_usuario/simulador-de-compra-online.git
+
+2. Abre el archivo `index.html` en tu navegador web predeterminado.
+
+## Autor
+
+- Nicolás Castro (https://github.com/nicoocastro)
