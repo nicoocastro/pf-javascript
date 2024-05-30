@@ -22,4 +22,4 @@ Además de ver el total de dinero acumulado entre los productos añadidos previa
 
 ## Librerías Externas
 
-- No se han utilizado librerías JS externas en este proyecto.
+- en proceso.

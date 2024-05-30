@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fetch products from JSON file
     async function fetchProducts() {
         try {
-            const response = await fetch('scripts/data.json');
-            const products = await response.json();
+            const response = await axios.get('scripts/data.json');
+            const products = response.data;
             products.forEach(product => {
                 const productDiv = document.createElement('div');
                 productDiv.classList.add('product');
@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function addToCart(id) {
         try {
-            const response = await fetch('scripts/data.json');
-            const products = await response.json();
+            const response = await axios.get('scripts/data.json');
+            const products = response.data;
             const product = products.find(p => p.id === id);
             const cartItem = cart.find(item => item.id === id);
 
