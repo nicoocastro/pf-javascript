@@ -17,12 +17,6 @@ Este proyecto es un simulador de compra online desarrollado con JavaScript, HTML
 - Finalización de la compra, vaciando el carrito y reiniciando la selección.
 - Visualización de las compras realizadas previamente en un modal.
 
-## Instalación
-
-1. Clonar este repositorio en tu máquina local utilizando Git:
-git clone https://github.com/tu_nombre_de_usuario/simulador-de-compra-online.git
-
-2. Abre el archivo `index.html` en tu navegador web predeterminado.
 
 ## Autor
 
